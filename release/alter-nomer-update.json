@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "url": "https://volant-ger.github.io/alternomer/release/AlterNomer.exe",
-  "sha256": "8c6066b66ccbf7df23662fc03b9728d8dc59c8754f1460d3a306bacca1a239c7",
+  "sha256": "180b0692c3abe326156b8e1b6e0d2fcac7285d80132f263aebb24b86c9af92db",
   "notes": {
     "ru": "Первая публичная версия: дизайн v2, self-update, Store-упаковка.",
     "en": "First public release: v2 design, self-update, Store packaging."
