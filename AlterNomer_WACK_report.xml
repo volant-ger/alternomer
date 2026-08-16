@@ -1,137 +1,134 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="ru-RU" OVERALL_RESULT="WARNING" VERSION="10.0.28000.2270" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=2EEAD2B4-3D05-4B22-B345-93463AFFA8B1" APP_NAME="VSSoftware.AlterNomer" APP_VERSION="1.0.0.0" OSVERSION="10.0.26200.0" OS="Майкрософт Windows 11 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1049" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="16.8.26 12:58:24" ID="76c772d728b04a2bc8df1fbbccce1223">
+<REPORT xml:lang="ru-RU" OVERALL_RESULT="PASS" VERSION="10.0.28000.2270" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=2EEAD2B4-3D05-4B22-B345-93463AFFA8B1" APP_NAME="VSSoftware.AlterNomer" APP_VERSION="1.0.0.0" OSVERSION="10.0.26200.0" OS="Майкрософт Windows 11 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1049" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="16.8.26 22:52:32" ID="e2bbb6526fefe033744fdfbc494afd32">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="3" TITLE="Проверка файлов с цифровой подписью" RATIONALE="Цифровая подпись Authenticode позволяет подтвердить подлинность программного обеспечения. Кроме того, с ее помощью можно обнаруживать факты несанкционированного доступа к файлу, например при заражении вирусом.">
-      <TEST INDEX="2" NAME="Устанавливайте подписанные драйверы и исполняемые файлы" DESCRIPTION="Устанавливайте подписанные драйверы и исполняемые файлы." EXECUTIONTIME="00h:00m:07s.01ms" OPTIONAL="TRUE">
+      <TEST INDEX="2" NAME="Устанавливайте подписанные драйверы и исполняемые файлы" DESCRIPTION="Устанавливайте подписанные драйверы и исполняемые файлы." EXECUTIONTIME="00h:00m:09s.14ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="6" TITLE="Проверка контроля учетных записей" RATIONALE="Во время выполнения большинства приложений не требуются привилегии администратора, и такие приложения можно безбоязненно выполнять от имени обычного пользователя. Приложения Windows должны содержать манифест (встроенный или внешний), который определяет уровень выполнения приложения и сообщает ОС, какие привилегии необходимы для его выполнения.">
-      <TEST INDEX="11" NAME="Уровень выполнения контроля учетных записей" DESCRIPTION="Приложения Windows® должны содержать манифест (встроенный или внешний), который определяет уровень выполнения приложения и сообщает ОС, какие привилегии необходимы для его выполнения." EXECUTIONTIME="00h:00m:04s.81ms" OPTIONAL="TRUE">
+      <TEST INDEX="11" NAME="Уровень выполнения контроля учетных записей" DESCRIPTION="Приложения Windows® должны содержать манифест (встроенный или внешний), который определяет уровень выполнения приложения и сообщает ОС, какие привилегии необходимы для его выполнения." EXECUTIONTIME="00h:00m:06s.26ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Проверка совместимости с пакетом" RATIONALE="Пакет не удовлетворяет правилам соответствия Store.">
-      <TEST INDEX="77" NAME="Число приложений" DESCRIPTION="Один пакет не должен определять более одного приложения в манифесте." EXECUTIONTIME="00h:00m:04s.88ms" OPTIONAL="TRUE">
+      <TEST INDEX="77" NAME="Число приложений" DESCRIPTION="Один пакет не должен определять более одного приложения в манифесте." EXECUTIONTIME="00h:00m:06s.29ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="Манифест приложения" DESCRIPTION="Манифест приложения должен включать допустимые записи для всех обязательных полей." EXECUTIONTIME="00h:00m:05s.67ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="Манифест приложения" DESCRIPTION="Манифест приложения должен включать допустимые записи для всех обязательных полей." EXECUTIONTIME="00h:00m:07s.38ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="87" NAME="Команды сопоставления файлов" DESCRIPTION="Проверка реестра на предмет того, что команды сопоставления файлов не установлены." EXECUTIONTIME="00h:00m:06s.67ms" OPTIONAL="TRUE">
+      <TEST INDEX="87" NAME="Команды сопоставления файлов" DESCRIPTION="Проверка реестра на предмет того, что команды сопоставления файлов не установлены." EXECUTIONTIME="00h:00m:07s.90ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="86" NAME="Проверки реестра" DESCRIPTION="Проверка реестра на предмет того, что ни драйверы, ни службы NT не установлены." EXECUTIONTIME="00h:00m:04s.50ms" OPTIONAL="TRUE">
+      <TEST INDEX="86" NAME="Проверки реестра" DESCRIPTION="Проверка реестра на предмет того, что ни драйверы, ни службы NT не установлены." EXECUTIONTIME="00h:00m:05s.74ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="91" NAME="Корпоративные возможности" DESCRIPTION="Проверьте, есть ли в пакете компоненты, доступные только для корпоративного использования." EXECUTIONTIME="00h:00m:04s.66ms" OPTIONAL="FALSE">
+      <TEST INDEX="91" NAME="Корпоративные возможности" DESCRIPTION="Проверьте, есть ли в пакете компоненты, доступные только для корпоративного использования." EXECUTIONTIME="00h:00m:05s.79ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="90" NAME="Пакеты ресурсов" DESCRIPTION="Проверьте, содержат ли какие-либо пакеты ресурсов PE-файлы." EXECUTIONTIME="00h:00m:04s.78ms" OPTIONAL="FALSE">
+      <TEST INDEX="90" NAME="Пакеты ресурсов" DESCRIPTION="Проверьте, содержат ли какие-либо пакеты ресурсов PE-файлы." EXECUTIONTIME="00h:00m:06s.03ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Проверка средств безопасности Windows" RATIONALE="Приложения должны явно соглашаться с функциями безопасности Windows.">
-      <TEST INDEX="70" NAME="Анализатор запрещенных файлов" DESCRIPTION="Анализ приложения для обнаружения известных незащищенных файлов" EXECUTIONTIME="00h:00m:05s.06ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Анализатор запрещенных файлов" DESCRIPTION="Анализ приложения для обнаружения известных незащищенных файлов" EXECUTIONTIME="00h:00m:06s.31ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="62" NAME="Подписывание частного кода" DESCRIPTION="Приложения не должны упаковывать файлы ключа подписывания частных кодов." EXECUTIONTIME="00h:00m:04s.75ms" OPTIONAL="FALSE">
+      <TEST INDEX="62" NAME="Подписывание частного кода" DESCRIPTION="Приложения не должны упаковывать файлы ключа подписывания частных кодов." EXECUTIONTIME="00h:00m:05s.87ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="Проверка ресурсов манифеста приложения" RATIONALE="Манифест пакета приложения должен содержать допустимые ресурсы, определенные в файле resources.pri, в соответствии со спецификацией пакетов приложений и схемой манифеста приложения.">
-      <TEST INDEX="45" NAME="Ресурсы приложений" DESCRIPTION="Пакет должен содержать допустимые ресурсы, определенные в файле resources.pri." EXECUTIONTIME="00h:00m:05s.90ms" OPTIONAL="TRUE">
+      <TEST INDEX="45" NAME="Ресурсы приложений" DESCRIPTION="Пакет должен содержать допустимые ресурсы, определенные в файле resources.pri." EXECUTIONTIME="00h:00m:06s.91ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Фирменная символика" DESCRIPTION="Приложения не должны использовать изображения по умолчанию, упакованные примерами Windows SDK или Visual Studio." EXECUTIONTIME="00h:00m:06s.26ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Фирменная символика" DESCRIPTION="Приложения не должны использовать изображения по умолчанию, упакованные примерами Windows SDK или Visual Studio." EXECUTIONTIME="00h:00m:07s.81ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Проверка конфигурации отладки" RATIONALE="Приложение не должно устанавливать двоичные файлы отладки.">
-      <TEST INDEX="46" NAME="Конфигурация отладки" DESCRIPTION="Приложение не должно устанавливать двоичные файлы отладки." EXECUTIONTIME="00h:00m:05s.01ms" OPTIONAL="TRUE">
+      <TEST INDEX="46" NAME="Конфигурация отладки" DESCRIPTION="Приложение не должно устанавливать двоичные файлы отладки." EXECUTIONTIME="00h:00m:06s.22ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="Проверка возможностей приложения" RATIONALE="Пакеты, описывающие специальные возможности, должны предоставить обоснования во время процесса адаптации.">
-      <TEST INDEX="52" NAME="Специальные возможности" DESCRIPTION="Пакеты, описывающие специальные возможности, должны предоставить обоснования во время процесса адаптации." EXECUTIONTIME="00h:00m:04s.79ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Специальные возможности" DESCRIPTION="Пакеты, описывающие специальные возможности, должны предоставить обоснования во время процесса адаптации." EXECUTIONTIME="00h:00m:06s.93ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Проверка метаданных среды выполнения Windows" RATIONALE="Метаданные должны быть согласованными во всех источниках данных формирования.">
-      <TEST INDEX="56" NAME="Атрибут ExclusiveTo" DESCRIPTION="Класс не должен реализовывать интерфейс, у которого атрибут ExclusiveTo установлен для другого класса." EXECUTIONTIME="00h:01m:05s.31ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="Атрибут ExclusiveTo" DESCRIPTION="Класс не должен реализовывать интерфейс, у которого атрибут ExclusiveTo установлен для другого класса." EXECUTIONTIME="00h:01m:21s.63ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="57" NAME="Расположение типа" DESCRIPTION="Типы должны быть определены в файле метаданных с наибольшим соответствующим пространством имен." EXECUTIONTIME="00h:00m:05s.40ms" OPTIONAL="FALSE">
+      <TEST INDEX="57" NAME="Расположение типа" DESCRIPTION="Типы должны быть определены в файле метаданных с наибольшим соответствующим пространством имен." EXECUTIONTIME="00h:00m:06s.53ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Чувствительность к регистру имени типа" DESCRIPTION="Пространство имен и имена типов не должны отличаться только регистром." EXECUTIONTIME="00h:00m:04s.60ms" OPTIONAL="FALSE">
+      <TEST INDEX="55" NAME="Чувствительность к регистру имени типа" DESCRIPTION="Пространство имен и имена типов не должны отличаться только регистром." EXECUTIONTIME="00h:00m:06s.92ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="54" NAME="Правильность имени типа" DESCRIPTION="В пространстве имен Windows допустимы только системные типы, в глобальном пространстве имен типы недопустимы." EXECUTIONTIME="00h:00m:04s.62ms" OPTIONAL="FALSE">
+      <TEST INDEX="54" NAME="Правильность имени типа" DESCRIPTION="В пространстве имен Windows допустимы только системные типы, в глобальном пространстве имен типы недопустимы." EXECUTIONTIME="00h:00m:07s.95ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="Правильность общих метаданных" DESCRIPTION="Файлы метаданных должны соответствовать различным требованиям, чтобы быть действительными и правильными." EXECUTIONTIME="00h:00m:50s.83ms" OPTIONAL="TRUE">
+      <TEST INDEX="58" NAME="Правильность общих метаданных" DESCRIPTION="Файлы метаданных должны соответствовать различным требованиям, чтобы быть действительными и правильными." EXECUTIONTIME="00h:01m:03s.52ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Свойства" DESCRIPTION="Свойства, доступные только для записи, и свойства индексаторов использовать нельзя. Типы соответствующих методов считывания и задания свойств должны совпадать." EXECUTIONTIME="00h:00m:04s.36ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Свойства" DESCRIPTION="Свойства, доступные только для записи, и свойства индексаторов использовать нельзя. Типы соответствующих методов считывания и задания свойств должны совпадать." EXECUTIONTIME="00h:00m:06s.38ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Проверка работоспособности пакета" RATIONALE="Проверка правильности содержимого пакета приложения.">
-      <TEST INDEX="89" NAME="Использование файлов архива" DESCRIPTION="Пакеты не должны содержать PE-файлы внутри файлов архива." EXECUTIONTIME="00h:00m:04s.81ms" OPTIONAL="TRUE">
+      <TEST INDEX="89" NAME="Использование файлов архива" DESCRIPTION="Пакеты не должны содержать PE-файлы внутри файлов архива." EXECUTIONTIME="00h:00m:06s.31ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="88" NAME="Заблокированные исполняемые файлы" DESCRIPTION="Определяет, имеются ли ссылки на API запуска процесса и заблокированные исполняемые файлы" EXECUTIONTIME="00h:00m:08s.12ms" OPTIONAL="TRUE">
+      <TEST INDEX="88" NAME="Заблокированные исполняемые файлы" DESCRIPTION="Определяет, имеются ли ссылки на API запуска процесса и заблокированные исполняемые файлы" EXECUTIONTIME="00h:00m:10s.12ms" OPTIONAL="TRUE">
         <MESSAGES>
           <MESSAGE TEXT="Файл AlterNomer.exe содержит ссылку на API kernel32.dll!CreateProcessW, связанный с запуском процесса" />
           <MESSAGE TEXT="Файл AlterNomer.exe содержит заблокированную исполняемую ссылку на &quot;dNx&quot;." />
           <MESSAGE TEXT="Файл AlterNomer.exe содержит заблокированную исполняемую ссылку на &quot;CSi&quot;." />
           <MESSAGE TEXT="Файл AlterNomer.exe содержит заблокированную исполняемую ссылку на &quot;CdB&quot;." />
           <MESSAGE TEXT="Файл AlterNomer.exe содержит заблокированную исполняемую ссылку на &quot;cmd&quot;." />
-          <MESSAGE TEXT="Файл AlterNomer.exe содержит заблокированную исполняемую ссылку на &quot;reg&quot;." />
+          <MESSAGE TEXT="Файл AlterNomer.exe содержит заблокированную исполняемую ссылку на &quot;REG&quot;." />
         </MESSAGES>
         <RESULT><![CDATA[FAIL]]></RESULT>
       </TEST>
-      <TEST INDEX="63" NAME="Файлы, подходящие для платформы" DESCRIPTION="Приложение не должно устанавливать файлы, не соответствующие архитектуре процессора." EXECUTIONTIME="00h:00m:04s.88ms" OPTIONAL="TRUE">
+      <TEST INDEX="63" NAME="Файлы, подходящие для платформы" DESCRIPTION="Приложение не должно устанавливать файлы, не соответствующие архитектуре процессора." EXECUTIONTIME="00h:00m:06s.22ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="26" TITLE="Поддержка высокого разрешения" RATIONALE="Приложение должно поддерживать определение DPI, чтобы пользовательский интерфейс хорошо выглядел при различных параметрах дисплеев с высоким разрешением.">
-      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Приложения должны поддерживать определение DPI, чтобы пользовательский интерфейс хорошо выглядел при различных параметрах дисплеев с высоким разрешением." EXECUTIONTIME="00h:00m:04s.80ms" OPTIONAL="FALSE">
-        <MESSAGES>
-          <MESSAGE TEXT="Файл AlterNomer.exe не содержит манифест PerMonitorV2 и не обращается к API поддержки определения DPI, например: user32!SetProcessDpiAwarenessContext или user32!SetThreadDpiAwarenessContext." />
-          <MESSAGE TEXT="Приложение VSSoftware.AlterNomer_1.0.0.0_x64__rfn9404mjv24t не поддерживает DPI." />
-        </MESSAGES>
-        <RESULT><![CDATA[WARNING]]></RESULT>
+      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Приложения должны поддерживать определение DPI, чтобы пользовательский интерфейс хорошо выглядел при различных параметрах дисплеев с высоким разрешением." EXECUTIONTIME="00h:00m:05s.99ms" OPTIONAL="FALSE">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="VSSoftware.AlterNomer" Type="Application" Source="AppxPackage" Publisher="CN=2EEAD2B4-3D05-4B22-B345-93463AFFA8B1" Version="1.0.0.0" Language="1049" InstallDate="" RootDirPath="C:\WINDOWS\temp\appcert_24F0\VSSoftware.AlterNomer_1.0.0.0_x64__rfn9404mjv24t" Id="00009fba348884017e442c4b9608494cba9b00001904" HiddenArp="false">
+      <Program Name="VSSoftware.AlterNomer" Type="Application" Source="AppxPackage" Publisher="CN=2EEAD2B4-3D05-4B22-B345-93463AFFA8B1" Version="1.0.0.0" Language="1049" InstallDate="" RootDirPath="C:\WINDOWS\temp\appcert_26D4\VSSoftware.AlterNomer_1.0.0.0_x64__rfn9404mjv24t" Id="00009fba348884017e442c4b9608494cba9b00001904" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
             <PackageManifest PackageFullName="VSSoftware.AlterNomer_1.0.0.0_x64__rfn9404mjv24t">
@@ -168,7 +165,7 @@
         </Indicators>
         <StaticProperties>
           <Files Id="">
-            <File Id="0000674d8b442f1a05ee754cdb6a64ff625245d6e6ac" Name="AlterNomer.exe" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" OriginalFileName="" InternalName="" Size="12150726" SizeOfImage="327680" PeHeaderHash="01019e82129457ec5ada78d0c131e667f89f8258b2b9" PeChecksum="12163151" CrcChecksum="3071383896" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="08/16/2026 10:41:09" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_24f0\vssoftware.alternomer_1.0.0.0_x64__rfn9404mjv24t\alternomer.exe" SigPublisherName="" PeSubsystem="2" PeCharacteristics="34" Sha256="c261c5223b8dbe82d40d5f482bc6aeb917593492e5552dab5f02091ec2f6aac2" />
+            <File Id="0000bf670226ba2c094c2cbaad3da40e1a71b60224d9" Name="AlterNomer.exe" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" OriginalFileName="" InternalName="" Size="12149962" SizeOfImage="327680" PeHeaderHash="010116806af7e39a81dbb76022a62d28fc63a0672ed2" PeChecksum="12181888" CrcChecksum="3942994875" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="08/16/2026 20:06:06" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_26d4\vssoftware.alternomer_1.0.0.0_x64__rfn9404mjv24t\alternomer.exe" SigPublisherName="" PeSubsystem="2" PeCharacteristics="34" Sha256="8c6066b66ccbf7df23662fc03b9728d8dc59c8754f1460d3a306bacca1a239c7" />
           </Files>
         </StaticProperties>
       </Program>
@@ -4328,6 +4325,185 @@
           <AitFeature Name="msvcrt.dll!ungetc" />
           <AitFeature Name="msvcrt.dll!vfprintf" />
           <AitFeature Name="msvcrt.dll!wcslen" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.80" DictionaryVersion="3.7" Type="Max" Id="C:\WINDOWS\temp\appcert_26D4\VSSoftware.AlterNomer_1.0.0.0_x64__rfn9404mjv24t">
+      <AitFile ErrorCode="0" Name="AlterNomer.exe" Id="0000bf670226ba2c094c2cbaad3da40e1a71b60224d9">
+        <AitCategory Id="Com">
+          <AitFeature Name="{00000000-0000-0000-0000-000000000022}" />
+        </AitCategory>
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="gdi32.dll!CreateFontIndirectW" />
+          <AitFeature Name="gdi32.dll!DeleteObject" />
+          <AitFeature Name="gdi32.dll!SelectObject" />
+          <AitFeature Name="advapi32.dll!ConvertSidToStringSidW" />
+          <AitFeature Name="advapi32.dll!ConvertStringSecurityDescriptorToSecurityDescriptorW" />
+          <AitFeature Name="advapi32.dll!GetTokenInformation" />
+          <AitFeature Name="advapi32.dll!OpenProcessToken" />
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CompareStringW" />
+          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!CreateProcessW" />
+          <AitFeature Name="kernel32.dll!CreateSymbolicLinkW" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!DeleteFileW" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!ExitProcess" />
+          <AitFeature Name="kernel32.dll!ExpandEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FileTimeToSystemTime" />
+          <AitFeature Name="kernel32.dll!FindClose" />
+          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
+          <AitFeature Name="kernel32.dll!FindFirstFileW" />
+          <AitFeature Name="kernel32.dll!FindNextFileW" />
+          <AitFeature Name="kernel32.dll!FlsAlloc" />
+          <AitFeature Name="kernel32.dll!FlsFree" />
+          <AitFeature Name="kernel32.dll!FlsGetValue" />
+          <AitFeature Name="kernel32.dll!FlsSetValue" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FormatMessageW" />
+          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetACP" />
+          <AitFeature Name="kernel32.dll!GetCPInfo" />
+          <AitFeature Name="kernel32.dll!GetCommandLineA" />
+          <AitFeature Name="kernel32.dll!GetCommandLineW" />
+          <AitFeature Name="kernel32.dll!GetConsoleMode" />
+          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
+          <AitFeature Name="kernel32.dll!GetCurrentDirectoryW" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetDriveTypeW" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentVariableW" />
+          <AitFeature Name="kernel32.dll!GetExitCodeProcess" />
+          <AitFeature Name="kernel32.dll!GetFileAttributesExW" />
+          <AitFeature Name="kernel32.dll!GetFileInformationByHandle" />
+          <AitFeature Name="kernel32.dll!GetFileSizeEx" />
+          <AitFeature Name="kernel32.dll!GetFileType" />
+          <AitFeature Name="kernel32.dll!GetFinalPathNameByHandleW" />
+          <AitFeature Name="kernel32.dll!GetFullPathNameW" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
+          <AitFeature Name="kernel32.dll!GetOEMCP" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
+          <AitFeature Name="kernel32.dll!GetStdHandle" />
+          <AitFeature Name="kernel32.dll!GetStringTypeW" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!GetTempPathW" />
+          <AitFeature Name="kernel32.dll!GetTimeZoneInformation" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
+          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
+          <AitFeature Name="kernel32.dll!IsValidCodePage" />
+          <AitFeature Name="kernel32.dll!K32EnumProcessModules" />
+          <AitFeature Name="kernel32.dll!K32GetModuleFileNameExW" />
+          <AitFeature Name="kernel32.dll!LCMapStringW" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
+          <AitFeature Name="kernel32.dll!LocalFree" />
+          <AitFeature Name="kernel32.dll!MulDiv" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!PeekNamedPipe" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceFrequency" />
+          <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!ReadConsoleW" />
+          <AitFeature Name="kernel32.dll!ReadFile" />
+          <AitFeature Name="kernel32.dll!RemoveDirectoryW" />
+          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
+          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
+          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
+          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
+          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
+          <AitFeature Name="kernel32.dll!SetConsoleCtrlHandler" />
+          <AitFeature Name="kernel32.dll!SetDllDirectoryW" />
+          <AitFeature Name="kernel32.dll!SetEndOfFile" />
+          <AitFeature Name="kernel32.dll!SetEnvironmentVariableW" />
+          <AitFeature Name="kernel32.dll!SetErrorMode" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SetLastError" />
+          <AitFeature Name="kernel32.dll!SetStdHandle" />
+          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!Sleep" />
+          <AitFeature Name="kernel32.dll!SystemTimeToTzSpecificLocalTime" />
+          <AitFeature Name="kernel32.dll!TerminateProcess" />
+          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!VirtualProtect" />
+          <AitFeature Name="kernel32.dll!WaitForSingleObject" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteConsoleW" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+          <AitFeature Name="comctl32.dll!380" />
+          <AitFeature Name="user32.dll!CreateWindowExW" />
+          <AitFeature Name="user32.dll!DefWindowProcW" />
+          <AitFeature Name="user32.dll!DestroyIcon" />
+          <AitFeature Name="user32.dll!DestroyWindow" />
+          <AitFeature Name="user32.dll!DialogBoxIndirectParamW" />
+          <AitFeature Name="user32.dll!DispatchMessageW" />
+          <AitFeature Name="user32.dll!DrawTextW" />
+          <AitFeature Name="user32.dll!EndDialog" />
+          <AitFeature Name="user32.dll!GetClientRect" />
+          <AitFeature Name="user32.dll!GetCursorPos" />
+          <AitFeature Name="user32.dll!GetDC" />
+          <AitFeature Name="user32.dll!GetDialogBaseUnits" />
+          <AitFeature Name="user32.dll!GetMessageW" />
+          <AitFeature Name="user32.dll!GetMonitorInfoW" />
+          <AitFeature Name="user32.dll!GetSystemMetrics" />
+          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!InvalidateRect" />
+          <AitFeature Name="user32.dll!MessageBoxA" />
+          <AitFeature Name="user32.dll!MessageBoxW" />
+          <AitFeature Name="user32.dll!MonitorFromPoint" />
+          <AitFeature Name="user32.dll!MoveWindow" />
+          <AitFeature Name="user32.dll!MsgWaitForMultipleObjects" />
+          <AitFeature Name="user32.dll!PeekMessageW" />
+          <AitFeature Name="user32.dll!PostMessageW" />
+          <AitFeature Name="user32.dll!RegisterClassW" />
+          <AitFeature Name="user32.dll!ReleaseDC" />
+          <AitFeature Name="user32.dll!SendMessageW" />
+          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!ShowWindow" />
+          <AitFeature Name="user32.dll!ShutdownBlockReasonCreate" />
+          <AitFeature Name="user32.dll!SystemParametersInfoW" />
+          <AitFeature Name="user32.dll!TranslateMessage" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!CompareStringEx" />
+          <AitFeature Name="kernel32.dll!FlsGetValue2" />
+          <AitFeature Name="kernel32.dll!LCMapStringEx" />
+          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
+          <AitFeature Name="mscoree.dll!CorExitProcess" />
+          <AitFeature Name="kernelbase.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernelbase.dll!AreFileApisANSI" />
+          <AitFeature Name="kernelbase.dll!CompareStringEx" />
+          <AitFeature Name="kernelbase.dll!FlsGetValue2" />
+          <AitFeature Name="kernelbase.dll!LCMapStringEx" />
+          <AitFeature Name="kernelbase.dll!LocaleNameToLCID" />
+          <AitFeature Name="kernelbase.dll!exit" />
+          <AitFeature Name="ucrtbase.dll!calloc" />
+          <AitFeature Name="ucrtbase.dll!exit" />
+          <AitFeature Name="ucrtbase.dll!fopen" />
+          <AitFeature Name="ucrtbase.dll!fread" />
+          <AitFeature Name="ucrtbase.dll!fseek" />
+          <AitFeature Name="ucrtbase.dll!fwrite" />
+          <AitFeature Name="ucrtbase.dll!log10" />
+          <AitFeature Name="ucrtbase.dll!malloc" />
+          <AitFeature Name="ucrtbase.dll!nan" />
         </AitCategory>
       </AitFile>
     </AitStaticAnalysis>
