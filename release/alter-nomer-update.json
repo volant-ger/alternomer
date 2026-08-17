@@ -1,9 +1,9 @@
 {
-  "version": "2.0.0",
+  "version": "2.2.0",
   "url": "https://volant-ger.github.io/alternomer/release/AlterNomer.exe",
-  "sha256": "180b0692c3abe326156b8e1b6e0d2fcac7285d80132f263aebb24b86c9af92db",
+  "sha256": "687c35d6f3fd30bf446132a48ad14476a9c5bdc171f176d9bb2d21e3346ce3b3",
   "notes": {
-    "ru": "Первая публичная версия: дизайн v2, self-update, Store-упаковка.",
-    "en": "First public release: v2 design, self-update, Store packaging."
+    "ru": "Тёмная тема MiloNumo, новый логотип и иконки, бейдж «Рекомендуем», обновление Store-пакета.",
+    "en": "MiloNumo dark theme, new logo and icons, Recommended badge, Store package update."
   }
 }
