@@ -1,9 +1,9 @@
 {
-  "version": "2.2.0",
+  "version": "2.2.1",
   "url": "https://volant-ger.github.io/alternomer/release/MiloNumo.exe",
-  "sha256": "95d5d51f740d7b3c6d8f4d99994d4116cc61d14dd379644e85e229d43003fc05",
+  "sha256": "69a0df7a7c77ceddc2ffa5152bf10564c3db1cfcaba2ca4ea7111737da913128",
   "notes": {
-    "ru": "Тёмная тема MiloNumo, новый логотип и иконки, бейдж «Рекомендуем», обновление Store-пакета.",
-    "en": "MiloNumo dark theme, new logo and icons, Recommended badge, Store package update."
+    "ru": "MiloNumo 2.2.1: бренд MiloNumo во всех артефактах (EXE/MSIX), партнёрские рекомендации (SMS-Man, SMSPVA, HeroSMS).",
+    "en": "MiloNumo 2.2.1: MiloNumo branding across artifacts (EXE/MSIX), partner recommendations (SMS-Man, SMSPVA, HeroSMS)."
   }
 }
