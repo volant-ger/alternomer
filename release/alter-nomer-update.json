@@ -1,7 +1,7 @@
 {
-  "version": "2.2.1",
+  "version": "2.2.2",
   "url": "https://volant-ger.github.io/alternomer/release/MiloNumo.exe",
-  "sha256": "69a0df7a7c77ceddc2ffa5152bf10564c3db1cfcaba2ca4ea7111737da913128",
+  "sha256": "034616d448b7f546f6b05f5638c18f2aa8e81ac2909837a3d4a4caf7adcd2fae",
   "notes": {
     "ru": "MiloNumo 2.2.1: бренд MiloNumo во всех артефактах (EXE/MSIX), партнёрские рекомендации (SMS-Man, SMSPVA, HeroSMS).",
     "en": "MiloNumo 2.2.1: MiloNumo branding across artifacts (EXE/MSIX), partner recommendations (SMS-Man, SMSPVA, HeroSMS)."
